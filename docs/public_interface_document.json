@@ -1,6 +1,6 @@
 {
   "package_name": "com.example.counter_app",
-  "project_description": "A simple counter app built using Flutter and Cubit for state management.",
+  "project_description": "A simple counter app built using Flutter and Cubit for state management, with an increment functionality of +2.",
   "architecture_overview": "The app follows a clean architecture with a clear separation of concerns using the Cubit pattern for state management, ensuring that UI and business logic are decoupled.",
   "folder_structure": {
     "lib": {
@@ -64,7 +64,7 @@
       "methods": [
         {
           "name": "increment",
-          "description": "Increments the counter state by 1.",
+          "description": "Increments the counter state by 2.",
           "parameters": null,
           "return_type": "void"
         },
@@ -96,7 +96,7 @@
       "methods": [
         {
           "name": "increment",
-          "description": "Increments the counter state by 1.",
+          "description": "Increments the counter state by 2.",
           "parameters": null,
           "return_type": "void"
         },
