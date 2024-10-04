@@ -1,14 +1,13 @@
 name: counter_app
-description: A simple counter app built using Flutter and Cubit for state management.
+description: A simple counter app built using Flutter and Cubit for state management, with an increment functionality of +2.
 version: 1.0.0
 environment:
   sdk: ">=2.17.0 <3.0.0"
-  flutter: ">=3.0.0 <4.0.0"
 dependencies:
   flutter:
     sdk: flutter
-  equatable: ^2.0.0
   flutter_bloc: ^8.0.0
+  equatable: ^2.0.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
